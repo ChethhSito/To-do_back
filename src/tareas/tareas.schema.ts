@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 import { Document } from "mongoose";
 
+//esquema de la tarea 
 @Schema()
 export class Tareas{
     @Prop({ required: true })
